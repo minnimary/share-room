@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Wolf';
+    src:
+            url('../Wolf in the City.otf'),
+            url('../Wolf in the City.ttf'),
+            url('../Wolf in the City Light.ttf');
+
+
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,35 @@
+h4.ant-list-item-meta-title{
+    font-size: 20px;
+}
+.demo-infinite-container {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    overflow: auto;
+    padding: 8px 24px;
+    height: 300px;
+}
+.demo-loading-container {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+div.ant-list.ant-list-split{
+    padding: 0 30px;
+    min-width: 100%;
+}
+
+div #first.ant-list-item-meta{
+    flex: 3;
+}
+div #last.ant-list-item-meta{
+    height: 48px;
+    padding: 10px 0;
+}
+div.ant-list-item-meta-content{
+    margin: 0 10px;
+}
+div #last h4.ant-list-item-meta-title{
+    text-align: center;
+    font-size: 32px;
+}

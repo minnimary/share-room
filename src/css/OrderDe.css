@@ -1,0 +1,13 @@
+.special-Tag div.ant-row.ant-form-item{
+    margin-bottom: 20px;
+}
+#basic .special-Tag div.ant-col.ant-form-item-label{
+    text-align: center;
+}
+#basic .special-Tag.ant-col.ant-form-item-label label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnV.ant-row.ant-form-item div.ant-form-item-control-input{
+    margin-top: 20px;
+}

@@ -1,0 +1,99 @@
+
+
+div.ant-form-item-control-input div.ant-form-item-control-input-content{
+    text-align: left;
+}
+
+div.ant-row.ant-form-item{
+    margin-bottom: 10px;
+}
+div.ant-col.ant-form-item-control{
+
+}
+
+#applyNum{
+    font-size:15px;
+    font-weight:600;
+    margin-right: 10px;
+    text-align: right;
+}
+div.ant-row.ant-form-item.orderId{
+    margin-bottom: 0;
+}
+
+div.ant-form-item textarea.ant-input{
+    height: 100px;
+}
+
+.ant-upload-select-picture-card i {
+    color: #999;
+    font-size: 32px;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+}
+div.ant-upload.ant-upload-select-picture-card{
+    width: 80px;
+    height: 80px;
+
+}
+
+div.ant-upload-list-item.ant-upload-list-item-done.ant-upload-list-item-list-type-picture-card{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+}
+div.ant-upload-list-picture-card-container{
+    width: 80px;
+    height: 80px;
+}
+.ant-upload-list-item.ant-upload-list-item-uploading.ant-upload-list-item-list-type-picture-card{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    text-align: center;
+}
+div.ant-row.ant-form-item{
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+form#validate_other.ant-form.ant-form-horizontal{
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0 14px;
+}
+/*div.ant-row.ant-form-item.btn-submit div.ant-col.ant-form-item-control div.ant-form-item-control-input div.ant-form-item-control-input-content{*/
+/*    text-align: center;*/
+/*}*/
+div.ant-row.ant-form-item.orderId div.ant-col.ant-form-item-control div.ant-form-item-control-input div.ant-form-item-control-input-content{
+    text-align: left;
+}
+.ant-row.ant-form-item.orderName .ant-col.ant-form-item-control  .ant-form-item-control-input .ant-form-item-control-input-content div.ant-form-item-control-input-content{
+    text-align: left;
+}
+
+div.ant-row.ant-form-item.btn-submit{
+    /*padding-top: 50px;*/
+}
+
+span#validate_other_input-number input.ant-input{
+width: 70%;
+    margin-left: 12px;
+}
+div.ant-row.ant-form-item.orderName{
+    margin: 30px 0;
+}
+div.ant-row.ant-form-item.orderName div.ant-form-item-control-input-content{
+    /*border-top: 0.1px #cccccc solid*/
+}
+div.ant-row.ant-form-item.Ava{
+    border-bottom: 0.3px #cccccc solid
+}
+.ant-row.ant-form-item.orderName.ant-form-item-control-input-content div.ant-row.ant-form-item{
+    margin-top: 30px
+}
+
+
+

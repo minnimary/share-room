@@ -1,0 +1,9 @@
+
+
+@font-face {
+    font-family: 'milano';
+    src: url('../Milano_italic.ttf'),
+    url('../Milano_regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

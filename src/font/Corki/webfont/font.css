@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Corki';
+    src:
+            url('../Corki-Regular.otf'),
+            url('../Corki-Rounded.otf'),
+            url('../Corki-Tuscan.otf'),
+            url('../Corki-TuscanRounded.otf');
+
+
+    font-weight: normal;
+    font-style: normal;
+}

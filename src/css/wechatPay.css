@@ -1,0 +1,236 @@
+.pay-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.pay-panel {
+    width: 160px;
+    height: 140px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-img {
+    width: 30px;
+    height: 28px;
+    background-image: url(../img/icon-pay.png);
+    background-size: 100% 100%;
+}
+
+.pay-text {
+    font-size: 14px;
+    color: #fefefe;
+    margin: 6px 0px 10px;
+    letter-spacing: 2px;
+}
+
+.pay-loading {
+    display: flex;
+}
+.pay-dot{
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    background-color:#bbb;
+    margin: 0px 4px;
+}
+.pay-dot-current{
+    background-color: #fff;
+}
+
+
+
+
+/*零钱 支付 面板 */   /*总的底层样式*/
+.pay-panel-mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.keyboard{
+    width: 100%;
+    height: 240px;
+    /*position: absolute;  由于没设flex方向*/
+    /*bottom: 0px;*/
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard-row{
+    width:100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*border: #09d3ac solid 1px;*/
+}
+.keyboard-btn{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+
+    border-bottom: #efefef solid 1px;
+    border-right: #efefef solid 1px;
+
+}
+
+/*底层背景*/
+.Payment{
+    flex:1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.4);
+}
+.pay-box{
+    height: 280px;
+    /*width: 320px;*/
+    width: 85%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.box-title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+
+}
+
+
+/*支付小框 head栏*/
+.box-icon{
+    position:absolute;/*第二个才考虑东西应该这么放上去*/
+    height:50px;/*一定要绝对定位，才能使title跟它不冲突  相当于不在同一层*/
+    width:66px;/*父相子绝对 然后设一个宽高*/
+    right:0;/*一定要设好跟父级贴边显示*/
+    top:0;
+    display:flex;/*即使下边为行级 但是父级设了flex*/
+    justify-content:center;/*就会把所有子集都变为块级  就可以以块级标准操作了*/
+    align-items:center;
+    padding:0px 20px;
+
+}
+.close{
+    background-image:url('../img/close.svg');
+    width:30px;
+    height:30px;
+    background-size:100% 100%
+}
+.title-text{
+    font-family: "微软雅黑";
+    font-size: large;
+    letter-spacing: 1.5px;
+}
+/*支付金额*/
+.box-price{
+    font-size: 34px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.payAmount{
+    font-size: 50px;
+    font-weight:600;
+}
+
+/*支付方式栏*/
+.box-method{
+    width: 85%;
+    height: 54px;
+    border-top: 1px solid #f7f7f7;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.methodPay{
+    color: #818181;
+    font-size: small;
+}
+
+.methodCharge{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.totem{
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.totemImg{
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/methodCharge.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+/*密码框*/
+.box-password{
+    height: 45px;
+    border: 1px solid #ccc;
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right:0px;
+    margin: 16px 0;
+}
+.password-input{
+    flex: 1;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pwd-dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #000000;
+}
+
